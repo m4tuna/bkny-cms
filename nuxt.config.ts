@@ -77,6 +77,9 @@ const nuxtConfig: Configuration = {
   modules: ['@nuxtjs/pwa', '@nuxtjs/style-resources', '@nuxtjs/markdownit'],
 
 
+  // Watch hopefully
+  watch: ['~/app/**/*.vue', '~/app/**/**/*.json'],
+
   markdownit: {
     preset: 'default',
 
